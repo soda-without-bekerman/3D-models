@@ -1,10 +1,10 @@
-module cylindurus(h, r1, r2, center) {
-	cylinder(h, r1, r2, center=center);
+module cirle(r, t)
+	for(i = [1:5:500]) {
+		difference() {
+			rotate([0,i,0]) circle(r, center=true);
+			rotate([0,i,0]) circle(r-1, center=true);
+	}
 }
 
-for(i = [1:0.2:10]) {
-	translate([0, 0, i]) cylindurus(1, i, i, center=true);
-}
 
-
-
+cirle(90);

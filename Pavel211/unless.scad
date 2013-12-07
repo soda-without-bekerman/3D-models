@@ -1,13 +1,23 @@
+//основа
+difference(){
 union(){  
   cube([150,50,4]);
   translate([0,25,0])
   cylinder(4,25,25);
   translate([150,25,0])
   cylinder(4,25,25);
-  
+  }
+translate([0,5,0]) cylinder(2,2.7,2.7);
+translate([0,45,0]) cylinder(2,2.7,2.7);
+translate([150,5,0]) cylinder(2,2.7,2.7);
+translate([50,45,0]) cylinder(2,2.7,2.7);
+translate([95,5,0]) cylinder(2,2.7,2.7);
+translate([95,45,0]) cylinder(2,2.7,2.7);
+translate([50,5,0]) cylinder(2,2.7,2.7);
+translate([150,45,0]) cylinder(2,2.7,2.7);
+
 
 }
-
 //буква u
   rotate(90,0,0)
    translate([23,-4,4])

@@ -1,17 +1,34 @@
 
 
 //основа
+
+
+union(){
 rotate([0,0,90])
 translate([-60,-35,4])
 union(){  
-  cube([70,50,4]);
-  translate([0,25,0])
-  cylinder(4,25,25);
-  translate([70,25,0])
-  cylinder(4,25,25);
+cube([70,50,4]);
+difference(){  
   
+  translate([0,25,0]) cylinder(4,25,25);
+  translate([-10,10,2]) cylinder(2,2.7,2.7);
+  translate([-10,40,2]) cylinder(2,2.7,2.7);
+  }
+
+difference(){
+
+  translate([70,25,0]) cylinder(4,25,25);
+  translate([75,10,2]) cylinder(2,2.7,2.7);
+  translate([75,40,2]) cylinder(2,2.7,2.7);
+
+  }
+}
 
 }
+
+
+
+
 
 
 union(){ 

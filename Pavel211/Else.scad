@@ -2,58 +2,93 @@
 $fn=128;
 union(){
 //основа и отверстия в ней 
- 
-cube([60,40,3]);
-difference(){ 
-  translate([0,20,1.5]) cylinder(h=3,r1=20,r2=20, center=true);
-translate([-3,1,-0.5]) cylinder(3,3,3);
-translate([-3,39,-0.5]) cylinder(3,3,3);
- 
+difference(){  
+union(){
+cube([60,50,3]);
+  translate([0,25,0]) cylinder(3,25,25);
+  translate([60,25,0]) cylinder(3,25,25);
+
+} 
+translate([-5,5,-1]) cylinder(2,2.7,2.7);
+translate([-5,45,-1]) cylinder(2,2.7,2.7);
+translate([65,5,-1]) cylinder(2,2.7,2.7);
+translate([65,45,-1]) cylinder(2,2.7,2.7);
+
+
 }
+//буква e
+translate([-45,5,4])
+union(){
+translate([28,18,0]) cube([22,3,3]);
+translate([27,13,0]) cube([3,13,3]);
 difference(){
- 
-translate([60,20,1.5]) cylinder(h=3,r1=20,r2=20, center=true);
-translate([63,39.5,-0.5]) cylinder(3,3,3);
-translate([63,0.5,-0.5]) cylinder(3,3,3);  
+union(){
+	
+  difference(){
+  translate([40,26,0]) cylinder(3,13,13);
+  translate([40,26,0]) cylinder(3,10,10);
+  translate([32,12,0]) cube([16,10,3]);
+
 }
- 
- 
-translate([-20,20,0]) cube([30,2,5]);
-  translate([50,20,0]) cube([30,2,5]);
- 
- 
- 
-//буква e 
+
 difference(){
-  translate([-4,20,4]) cylinder(2,16,16, center=true);
- translate([-4,20,3]) cylinder(5,14,14);
- translate([6,10,3]) cube(10);
+  translate([40,13,0]) cylinder(3,13,13);
+  translate([40,13,0]) cylinder(3,10,10);
+  translate([32,15,0]) cube([19,13,3]);
+  translate([40,6,0]) cube(20);
 }
+}
+translate([30,13,0]) cube([3,13,3]);
+translate([40,10,0]) cube(10);
+}
+}
+
+
+
 //буква L
-  translate([14,5,2]) cube([2,30,3]);
-  translate([14,5,2]) cube([15,3,3]);
- 
+  translate([10,5,3]) cube([3,40,3]);
+  translate([10,5,3]) cube([15,3,3]);
 
 //буква S
-translate([38,32,4])
+translate([-56,25,3]) rotate([0,0,90])
 union(){
 difference(){
-  translate([0,-5,0]) cylinder(2,9,9, center=true);
-  translate([0,-4,-1]) cylinder(2,7,7);
-  translate([0,-13,-2.5]) cube(13);
+  translate([9,-94,0]) cylinder(3,11,11);
+  translate([9,-94,0]) cylinder(3,8,8);
+  translate([-5,-110,0]) cube(15);
+
 }
+
 difference(){
-  translate([0,-20,-1]) cylinder(2,9,9, centre=true);
-  translate([0,-20,-1]) cylinder(2,7,7);
-  translate([-15,-24,-1]) cube(15);
+  translate([-10,-94,0]) cylinder(3,11,11);
+  translate([-10,-94,0]) cylinder(3,8,8);
+  translate([-10,-94,0]) cube(15);
 }
- 
-//вторая буква e
+}
+//буква e
+translate([25,5,4])
+union(){
+translate([28,18,0]) cube([22,3,3]);
+translate([27,13,0]) cube([3,13,3]);
 difference(){
-  translate([26,-12,0]) cylinder(2,16,16, center=true);
-  translate([26,-12,-1]) cylinder(5,14,14);
-  translate([35,-22,-1]) cube(10);
+union(){
+	
+  difference(){
+  translate([40,26,0]) cylinder(3,13,13);
+  translate([40,26,0]) cylinder(3,10,10);
+  translate([32,12,0]) cube([16,10,3]);
+
+}
+
+difference(){
+  translate([40,13,0]) cylinder(3,13,13);
+  translate([40,13,0]) cylinder(3,10,10);
+  translate([32,15,0]) cube([19,13,3]);
+  translate([40,6,0]) cube(20);
+}
+}
+translate([30,13,0]) cube([3,13,3]);
+translate([40,10,0]) cube(10);
 }
 }
 }
- 

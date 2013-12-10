@@ -1,7 +1,9 @@
 
 
 //Pavel Shalaginov
+
 $fn=128;
+
 union(){
 //основа и отверстия в ней 
 difference(){  

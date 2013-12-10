@@ -6,6 +6,7 @@ $fn=128;
   translate([150,25,-3]) cylinder(3,25,25);
 
 translate([-3.7,0,0])
+
  union(){
 // буква с
   translate([-45,5,0])

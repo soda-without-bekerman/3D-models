@@ -1,4 +1,5 @@
 //буква e
+translate([118,5,0])
 union(){
 translate([28,18,0]) cube([22,3,3]);
 translate([27,13,0]) cube([3,13,3]);

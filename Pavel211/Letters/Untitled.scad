@@ -1,7 +1,6 @@
-// буква n
-translate([34,5,0])
+//буква h
 union(){
-cube([3,40,3]);
+cube([3,50,3]);
 difference(){  
   translate([12,26,0]) cylinder(3,13,13);
   translate([12,26,0]) cylinder(3,10,10);

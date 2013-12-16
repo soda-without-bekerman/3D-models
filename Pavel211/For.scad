@@ -6,15 +6,15 @@ union(){
 cube([60,40,3]);
 difference(){ 
   translate([0,20,1.5]) cylinder(h=3,r1=20,r2=20, center=true);
-translate([-3,1,-0.5]) cylinder(3,3,3);
-translate([-3,39,-0.5]) cylinder(3,3,3);
+translate([-3,5,-0.5]) cylinder(2,2.4,2.6);
+translate([-3,35,-0.5]) cylinder(2,2.,2.6);
  
 }
 difference(){
  
 translate([60,20,1.5]) cylinder(h=3,r1=20,r2=20, center=true);
-translate([63,39.5,-0.5]) cylinder(3,3,3);
-translate([63,0.5,-0.5]) cylinder(3,3,3);  
+translate([63,35,-0.5]) cylinder(2,2.4,2.6);
+translate([63,5,-0.5]) cylinder(2,2.4,2.6);  
 }
  
  //буква F

@@ -7,7 +7,7 @@ cube([60,40,3]);
 difference(){ 
   translate([0,20,1.5]) cylinder(h=3,r1=20,r2=20, center=true);
 translate([-3,5,-0.5]) cylinder(2,2.4,2.6);
-translate([-3,35,-0.5]) cylinder(2,2.,2.6);
+translate([-3,35,-0.5]) cylinder(2,2.4,2.6);
  
 }
 difference(){

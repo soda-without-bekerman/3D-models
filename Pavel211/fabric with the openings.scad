@@ -1,8 +1,6 @@
 difference(){
 
 cube([100,30,2]);
-translate([0,10,0])
-cube([100,10,3]);
 
 translate([5,5,-1])
 cylinder(3,3,3);

@@ -2,14 +2,14 @@ $fn=128;
 //основа
 difference(){
 union(){  
-  cube([65,50,4]);
-  translate([0,25,0]) cylinder(4,25,25);
-  translate([65,25,0]) cylinder(4,25,25);
+ translate([0,0,4]) cube([65,50,1]);
+  translate([0,25,4]) cylinder(1,25,25);
+  translate([65,25,4]) cylinder(1,25,25);
   }
-translate([0,5,0]) cylinder(2,2.7,2.7);
-translate([0,45,0]) cylinder(2,2.7,2.7);
-translate([65,5,0]) cylinder(2,2.7,2.7);
-translate([65,45,0]) cylinder(2,2.7,2.7);
+translate([0,5,2]) cylinder(4,2.7,2.7);
+translate([0,45,2]) cylinder(4,2.7,2.7);
+translate([65,3,2]) cylinder(4,2.7,2.7);
+translate([65,45,2]) cylinder(4,2.7,2.7);
 
 }
 

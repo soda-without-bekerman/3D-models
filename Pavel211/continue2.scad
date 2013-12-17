@@ -1,9 +1,19 @@
 $fn=128;
 // основа
-  translate([0,0,0]) cube([150,50,1]);
-  translate([0,25,0]) cylinder(1,25,25); 
-  translate([150,25,]) cylinder(1,25,25);
+difference(){
+union(){
+translate([0,0,-2])
+union(){ 
+ translate([0,0,0]) cube([150,50,2]);
+  translate([0,25,0]) cylinder(2,25,25); 
+  translate([150,25,]) cylinder(2,25,25);
+}
+transalte
 
+
+
+}
+}
 translate([-3.7,0,0])
 union(){
 // буква с

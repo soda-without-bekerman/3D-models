@@ -1,3 +1,5 @@
+$fn=128;
+
 union(){
 //основа
 difference(){

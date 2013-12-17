@@ -1,8 +1,22 @@
 $fn=128;
 // основа
-  translate([0,0,-1]) cube([150,50,1]);
-  translate([0,25,-1]) cylinder(1,25,25); 
-  translate([150,25,-1]) cylinder(1,25,25);
+difference(){
+union(){  
+translate([0,0,-2]) cube([150,50,2]);
+  translate([0,25,-2]) cylinder(2,25,25); 
+  translate([150,25,-2]) cylinder(2,25,25);
+}
+translate([0,5,-2]) cylinder(1.9,2.6,2.6);
+translate([0,45,-2]) cylinder(1.9,2.6,2.6);
+translate([150,5,-2]) cylinder(1.9,2.6,2.6);
+translate([150,45,-2]) cylinder(1.9,2.6,2.6);
+translate([70,5,-2]) cylinder(1.9,2.6,2.6);
+translate([70,45,-2]) cylinder(1.9,2.6,2.6);
+
+}
+
+
+
 
 translate([-3.7,0,0])
 union(){
@@ -74,9 +88,10 @@ difference(){
   translate([21.3,0,0]) cube([3,30,3]);
 }
 //Я пропустил букву n после о, поэтому я принял отважное решение переместить сразу 3 буквы  =))
+//буква t
 translate([17,0,0])
 union(){
-//буква t
+
   translate([50,10,3]) rotate([180,0,90])
  union(){
   cube([40,3,3]);

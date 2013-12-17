@@ -16,6 +16,7 @@ translate([20,45,-4]) cylinder(2,2.7,2.7);
 translate([5,0,0])
 union(){
 //буква w
+union(){
 translate([-50,0,0])
   rotate([0,0,90])
 union(){
@@ -27,7 +28,7 @@ union(){
  translate([0,-37.7,0])
   rotate([0,0,-15]) cube([40,3,3]);
 }
-
+}
 //буква h
 union(){
 cube([3,50,3]);
@@ -43,7 +44,7 @@ difference(){
 
 
 //буква e
-translate([0,0,0])
+
 union(){
 translate([28,18,0]) cube([22,3,3]);
 translate([27,13,0]) cube([3,13,3]);

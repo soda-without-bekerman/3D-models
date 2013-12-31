@@ -1,4 +1,6 @@
-difference(){
+
+  module a(hh=60, eh=10, z=-1) {
+    difference(){
 union(){
  cube([3,40,3]);
  translate([-23.1,0,0]) rotate([0,0,-30])  cube([3,50,3]);
@@ -9,3 +11,6 @@ union(){
  translate([-34.65,0,-1]) rotate([0,0,-30]) cube([10,40,5]);
  translate([0,42,-1]) cube(10);
 }
+  }
+
+  a(hh=10);

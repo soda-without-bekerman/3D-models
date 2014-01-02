@@ -1,4 +1,4 @@
-
+$fn=128;
   module rocket(hh=5, eh=10, rh=30, z=-1) {
     rotate([0,0,180]) {
     cylinder(h=rh, r=3);

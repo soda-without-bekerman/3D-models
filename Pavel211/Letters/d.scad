@@ -1,7 +1,7 @@
 //буква d
+ translate([-5,0,0]) cube([3,40,3]);
 difference(){
-  translate([66,19,4]) cylinder(3,15,15);
-  translate([66,19,4]) cylinder(3,12,12);
-  translate([76,5,4]) cube([13,40,3]);
+ translate([5,20,0]) cylinder(3,20,20);
+ translate([5,20,-1]) cylinder(5,17,17);
+ translate([-15,0,-1]) cube([10,40,5]);
 }
-translate([73,5,4]) cube([3,40,3]);

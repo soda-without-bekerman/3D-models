@@ -74,7 +74,7 @@ union(){
 
 
 //буква t
-translate([17,0,0])
+translate([16,0,0])
 union(){
 
   translate([50,10,3]) rotate([180,0,90])

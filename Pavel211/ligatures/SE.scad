@@ -1,4 +1,23 @@
+// s
+translate([19,28,3]) rotate([180,0,90]){
 
+union(){
+difference(){
+ translate([1,0,0]) cylinder(3,11,11);
+translate([1,0,-1]) cylinder(5,8,8);
+ translate([-11,0,-1]) cube(11);
+
+}
+
+difference(){
+ translate([-17.8,0,0]) cylinder(3,11,11);
+ translate([-17.8,0,-1]) cylinder(5,8,8);
+ translate([-19,-11,-1]) cube(11);
+
+}
+}
+
+}
 //буква e
 
 union(){

@@ -1,5 +1,4 @@
 // буква n
-
 union(){
 cube([3,40,3]);
 difference(){  

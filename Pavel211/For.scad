@@ -42,6 +42,6 @@ translate([49,5,3]) cube([4,30,3]);
 
 
   rotate([0,0,-45]) 
- translate([33,49,4]) cube([15,4,3], center= true);
+ translate([33,49,4]) cube([15,4,4], center= true);
 
 }

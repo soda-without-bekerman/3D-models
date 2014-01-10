@@ -30,7 +30,7 @@ difference(){
   translate([40,6,-1]) cube(20);
 }
 }
-  translate([30,13,-1]) cube([5,14,4]);
+  translate([30,13,-1]) cube([5,14,5]);
   translate([42,13,-1]) cube(20);
 }
 }
@@ -58,7 +58,7 @@ difference(){
   translate([40,17,-1]) cube(20);
 }
 }
-  translate([30,13,-1]) cube([5,14,4]);
+  translate([30,13,-1]) cube([5,14,5]);
   translate([42,10,-1]) cube(20);
 }
 }
@@ -137,8 +137,8 @@ difference(){
   translate([40,6,-1]) cube(20);
 }
 }
-translate([30,13,0]) cube([3,13,3]);
-translate([40,10,0]) cube(10);
+translate([30,13,-1]) cube([3,13,5]);
+translate([40,10,-1]) cube(10);
 }
 }
 }

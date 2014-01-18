@@ -18,7 +18,6 @@ h2 = h1*1.33;
 $fa = 5*1;
 $fs = 0.2*1;
 
-through = false;
 
 difference()
 {
@@ -67,27 +66,6 @@ module smileygood()
   for(i=[-n:n])
   { 
     rotate(360/(2*n-1)*i*0.275,[0,0,1])
-      translate([+c,0,0]) cylinder(r=rm,h=20,center=false);
-  }
-}
-
-module smileybad()
-{
-  a = 3.1;
-  b = 3.0;
-
-  n = 7;
-  c = 5;
-  rm = 1.25;
-  translate([-b,-a,0])
-    cylinder(r=2,h=20,center=false);
-  translate([-b,+a,0])
-    cylinder(r=2,h=20,center=false);
-
-  translate([6.75,0,0])
-  for(i=[-n:n])
-  { 
-    rotate(180+360/(2*n-1)*i*0.275,[0,0,1])
       translate([+c,0,0]) cylinder(r=rm,h=20,center=false);
   }
 }

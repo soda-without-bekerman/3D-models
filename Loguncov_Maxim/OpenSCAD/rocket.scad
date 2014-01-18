@@ -22,7 +22,7 @@ union(){translate([0,0,-(1.5*h*1.5+r-10)])
 translate([8,0,20])
 rotate([0,-10,0])
 scale([1,1,1.5])
-#	sphere(r=25/2);
+	sphere(r=25/2);
 			scale([1,1,h/r*2])sphere(r=r);
 }
 			scale([.75,.75,.8]) scale([1,1,h/r*2])sphere(r=r);

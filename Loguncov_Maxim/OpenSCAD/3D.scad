@@ -46,10 +46,15 @@ module 3D() {
 		color("black") translate(v = [0,-3,0]) scale([0.5 , 0.5, 0 ]) D();
 	
 	}
-	module D() difference (){
-			union(){
-				translate(v = [-2,-5,0]) cylinder(r=6.5,h=1,$fn=18);
-			}
-			rotate(a=[0,0,60]) translate(v = [-13,0,0]) cube([15,6,1]);
-	}
+	module D() //буква d
+scale([0.3,0.3,0.3]){
+ translate([-25,-40,0]){
+rotate([0,0,-30]){
+ translate([-5,0,0]) cube([4,40,4]);
+difference(){
+ translate([5,20,0]) cylinder(4,20,20);
+ translate([5,20,-1]) cylinder(6,16,16);
+ translate([-15,0,-1]) cube([10,40,6]);
 }
+}}
+}}

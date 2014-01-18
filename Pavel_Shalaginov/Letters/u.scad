@@ -1,4 +1,5 @@
-// буква n
+//u
+rotate([0,0,180]){
 union(){
 cube([3,40,3]);
 difference(){  
@@ -9,4 +10,5 @@ difference(){
 
 }
   translate([21.3,0,0]) cube([3,30,3]);
+}
 }

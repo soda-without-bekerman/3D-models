@@ -1,4 +1,4 @@
-$fn=128; 
+ 
 difference(){
 union(){
 rotate([90,90,0]) translate([0,33,-70]) cylinder(70,2.5,2.5);

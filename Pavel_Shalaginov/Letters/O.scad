@@ -1,4 +1,4 @@
-// буква О
+//О
 translate([0,5,0])
 union(){
   translate([49.5,10,0]) cube([4,20,3]);

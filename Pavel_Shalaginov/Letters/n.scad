@@ -1,4 +1,4 @@
-rotate([0,180,180]){
+//n
 union(){
 cube([3,40,3]);
 difference(){  
@@ -9,5 +9,4 @@ difference(){
 
 }
   translate([21.3,0,0]) cube([3,30,3]);
-}
 }

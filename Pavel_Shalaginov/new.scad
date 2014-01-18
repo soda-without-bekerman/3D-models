@@ -1,4 +1,5 @@
 $fn=128;
+
 //основa
 union(){
 rotate([0,900,180])
@@ -22,7 +23,9 @@ difference(){
 }
 
 }
-translate([10,0,0])
+
+
+translate([13,0,0])
 union(){
 //буква n
 union(){
@@ -37,6 +40,7 @@ difference(){
   translate([21.3,0,0]) cube([3,30,3]);
 }
 //буква e
+translate([3,0,0])
 union(){
 translate([28,18,0]) cube([22,3,3]);
 translate([27,13,0]) cube([3,13,3]);
@@ -62,16 +66,15 @@ translate([40,10,0]) cube(10);
 }
 }
 // буква w
- translate([70,0,0])
+ translate([53,0,0])
   rotate([0,0,90])
 union(){
-  rotate([0,0,20]) cube([40,3,3]);
-  rotate([0,0,-20]) cube([40,3,3]);
+  translate([0,-17,0]) rotate([0,0,15]) cube([40,3,3]);
+  translate([0,-17,0]) rotate([0,0,-15]) cube([40,3,3]);
 
- translate([0,-27.7,0])
-  rotate([0,0,20]) cube([40,3,3]);
+ translate([0,-37.7,0]) rotate([0,0,15]) cube([40,3,3]);
 
- translate([0,-27.7,0])
-  rotate([0,0,-20]) cube([40,3,3]);
-}
-}
+ translate([0,-37.7,0])
+  rotate([0,0,-15]) cube([40,3,3]);
+
+}}

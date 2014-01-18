@@ -1,4 +1,4 @@
-// Mascote Mini 3D Machine
+// Printer
 
 Printer();
 rotate (a=[0,-2,0]) translate(v = [0,0,-1]) 3D();

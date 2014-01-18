@@ -18,17 +18,17 @@ module Printer() {
 		translate(v = [-22,13.9,0]) 	cylinder(r=1,h=30);
 		translate(v = [-22,16.2,0]) 	cylinder(r=1,h=30);
 	}
-	color("yellow") rotate(a=[0,90,0]) { // x-carrier rod
+	color("yellow") rotate(a=[0,90,0]) { 
 		translate(v = [-15,9.8,0]) 	cylinder(r=1,h=30);
 		translate(v = [-15,20.2,0]) 	cylinder(r=1,h=30);
 	}
-	color("red") translate(v = [5,5,1]) cube([20,20,1]); //bed
+	color("red") translate(v = [5,5,1]) cube([20,20,1]); //Подложка
 	color("red") {
-		translate(v = [12,9,16]) cube([6,12,1]); //extruder
-		translate(v = [13,12,16]) cube([4,4,4]); //extruder
+		translate(v = [12,9,16]) cube([6,12,1]); //экструдер
+		translate(v = [13,12,16]) cube([4,4,4]); //экструдер
 	}
-	translate(v = [2.1,12,23]) cube([4,6,1]); //motor1
-	translate(v = [22.1,12,22]) cube([4,6,2]); //motor2
+	translate(v = [2.1,12,23]) cube([4,6,1]); //мотор
+	translate(v = [22.1,12,22]) cube([4,6,2]); //мотор
 }
 
 module 3D() {

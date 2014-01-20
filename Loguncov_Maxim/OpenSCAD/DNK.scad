@@ -112,8 +112,7 @@ module SquareBBOvoidBaseDNA(){
 }
 
 // ===== Моделирование =====
-//SquareBaseDNA();
+
 mirror(0,0,0){
 	SquareBBOvoidBaseDNA();
 }
-//OvoidBaseDNA();

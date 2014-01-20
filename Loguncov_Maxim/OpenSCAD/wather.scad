@@ -47,14 +47,13 @@ translate([0,-10,65])
 union()
 	{
 	difference()
-		{
-		translate([0,0,-30]) scale([0.35,0.35,0.35]) 
+	{translate([0,0,-30]) scale([0.35,0.35,0.35]) 
 			intersection()
 			{
 			translate([0,-25,-25]) cylinder(50,10,10);
 			rotate([90,0,0]) cylinder(50,8,8);
 			}
-		scale([0.35,0.35,0.35]) translate([0,0,-86]) rotate([90,0,0]) cylinder(65.2,5,5);
+		#scale([0.35,0.35,0.35]) translate([0,0,-86]) rotate([90,0,0]) cylinder(65.2,5,5);
 		}
 	scale([0.35,0.35,0.35]) translate([0,-18,-115]) cylinder(36,6,6);
 	}

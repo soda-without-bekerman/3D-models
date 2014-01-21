@@ -1,5 +1,7 @@
 //Loguncov Maxim 21.01.2014
 
+rotate([180, 0, 0]){
+
 color([0.3,1,0])
 for ( i = [0 : 1000] )
 {
@@ -10,5 +12,6 @@ for ( i = [0 : 1000] )
 
 
 color([1,0.1,0.1])
-translate([0,0,23])
+translate([0,0,24.3])
 cylinder(140,25,25);
+}

@@ -1,3 +1,5 @@
+//Loguncov Maxim 22.01.2014
+
 
 $fn=128;
 
@@ -20,3 +22,14 @@ sphere(10);
 
 //translate([18,0,0])
 //cube([1.5,1.5,11]);
+
+
+
+
+for( i = [0:20] )
+{
+	translate([0,0,5])
+	rotate( 360/20 * i,  [0, 0, 1])
+	translate([24, 0, 0])
+	cube(size = [1.9, 3, 12], center=true);
+}

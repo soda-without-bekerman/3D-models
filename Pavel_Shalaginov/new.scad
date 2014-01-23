@@ -6,13 +6,13 @@ union(){
 difference(){  
  union(){  
   cube([85,50,0.3]);
-   translate([85,25,0]) cylinder(0.3,25,25);
-    translate([0,25,0]) cylinder(0.3,25,25);
+   translate([85,25,0]) cylinder(1,25,25);
+    translate([0,25,0]) cylinder(1,25,25);
   
   translate([80,10,0]) cylinder(3,4,4);
-  translate([80,40,0]) cylinder(3,4,4);
-  translate([0,10,0]) cylinder(3,4,4);
-  translate([0,40,0]) cylinder(3,4,4);
+  translate([80,40,0]) cylinder(5,4,4);
+  translate([0,10,0]) cylinder(5,4,4);
+  translate([0,40,0]) cylinder(5,4,4);
 }
   
 

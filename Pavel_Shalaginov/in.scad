@@ -6,16 +6,16 @@ difference(){
    cube([45,50,1]);
    translate([0,25,0]) cylinder(1,25,25);
    translate([45,25,0]) cylinder(1,25,25);
-  translate([0,5,-3]) cylinder(3,4,4);
- translate([0,45,-3]) cylinder(3,4,4);
- translate([45,5,-3]) cylinder(3,4,4);
- translate([45,45,-3]) cylinder(3,4,4);
+  translate([0,5,-5]) cylinder(5,4,4);
+ translate([0,45,-5]) cylinder(5,4,4);
+ translate([45,5,-5]) cylinder(5,4,4);
+ translate([45,45,-5]) cylinder(5,4,4);
      
 }
- translate([0,5,-3]) cylinder(5,2.7,2.7);
- translate([0,45,-3]) cylinder(5,2.7,2.7);
- translate([45,5,-3]) cylinder(5,2.7,2.7);
- translate([45,45,-3]) cylinder(5,2.7,2.7);
+ translate([0,5,-5]) cylinder(7,2.7,2.7);
+ translate([0,45,-5]) cylinder(7,2.7,2.7);
+ translate([45,5,-5]) cylinder(7,2.7,2.7);
+ translate([45,45,-5]) cylinder(7,2.7,2.7);
  
  }
  translate([-1.5,0,-3])

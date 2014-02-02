@@ -8,7 +8,7 @@ union(){
   translate([0,25,0]) cylinder(2,25,25); 
   translate([150,25,]) cylinder(2,25,25);
 }
-transalte
+
 
 
 

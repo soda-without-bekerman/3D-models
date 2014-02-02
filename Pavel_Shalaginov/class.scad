@@ -1,35 +1,34 @@
-union(){
- rotate([0,900,180]) translate([20,-45,0])
+$fn=128;
+//основа						
+
+rotate([180,0,0]) translate([20,-45,0])
 difference(){  
  union(){  
-  cube([93,50,1]);
-   translate([93,25,0]) cylinder(1,25,25);
+
+  cube([100,50,1]);
+   translate([100,25,0]) cylinder(1,25,25);
     translate([0,25,0]) cylinder(1,25,25);
   
-  translate([87,10,0]) cylinder(5,4,4);
-  translate([87,40,0]) cylinder(5,4,4);
+  translate([100,10,0]) cylinder(5,4,4);
+  translate([100,40,0]) cylinder(5,4,4);
   translate([0,10,0]) cylinder(5,4,4);
   translate([0,40,0]) cylinder(5,4,4);
 }
   
 
-  #translate([0,10,0.4]) cylinder(5,2.7,2.7);
-  #translate([0,40,0.4]) cylinder(5,2.7,2.7);
+  #translate([0,10,0.4]) cylinder(5,2.6,2.6);
+  #translate([0,40,0.4]) cylinder(5,2.6,2.6);
+  #translate([100,10,0.4]) cylinder(5,2.6,2.6);
+  #translate([100,40,0.4]) cylinder(5,2.6,2.6);
+  translate([120,0,-2]) cube([5,50,9]);
+  translate([-25,0,-2]) cube([5,50,9]);
   
-
-
-
-
-  #translate([87,10,0.4]) cylinder(5,2.7,2.7);
-  #translate([87,40,0.4]) cylinder(5,2.7,2.7);
-
-  }
-
-
 }
 
-//С
 
+//С
+translate([5,0,0])
+union(){
 translate([-27,0,0])
 union(){
 
@@ -55,11 +54,13 @@ difference(){
   translate([42,13,-1]) cube(20);
 }
 }
-translate([5,20,0]){
+
+#translate([5,20,0]){
 rotate([0,0,90]){
+
 union(){
 //буква L
-  translate([-20,-25,0]) cube([40,3,3]);
+#  translate([-20,-25,0]) cube([40,3,3]);
   translate([-20,-45,0]) cube([3,20,3]);
 //буква А
  translate([-20,-80,0])
@@ -106,7 +107,7 @@ difference(){
 }
 }
 }
-
+}
 
 
 

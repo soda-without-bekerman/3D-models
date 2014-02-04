@@ -582,14 +582,15 @@
                 
             </section>
             <footer>
-
-                <b target="_blank" href="https://github.com/soda-io">
+<ul>             
+<li>
+                <a target="_blank" href="https://github.com/soda-io">
 
                     SODA
 
-                </b>
-
-
+                </a>
+</li>
+</ul>
             </footer>
         </section>
     </body>

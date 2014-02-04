@@ -3,7 +3,7 @@ body {
 	font-size: 100%;
 	line-height: 1em;
 	color: #999;
-        background-color: #DCD5D5;
+        background-color: #62BFEF;
         padding: 1.5em;
 
 	    background-image:url('/home/loguncov/Git/OpenSCAD-models/Loguncov_Maxim/Openscad_Html/CSS/image/OpenSCAD-logo.png');

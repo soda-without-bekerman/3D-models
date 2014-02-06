@@ -4,11 +4,11 @@
 // 9/12/13
 //---------------------------------------------------------------------
 difference(){
-	cylinder(h = 10, r=20, $fn=80);
+	cylinder(h = 10, r=20, $fn=70);
 	translate([-15,0,0]){	
 		cylinder(h = 15, r = 15, $fn=3, center = false);
 	}
 	translate([-3,-10,0]){
-		cylinder(h = 15, r=3, $fn=50);
+		cylinder(h = 15, r=3, $fn=30);
 	}
 }

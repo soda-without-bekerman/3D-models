@@ -4,10 +4,10 @@
 difference() {
 
 //основа
-{minkowski()
+minkowski()
 {cube([20,20,20]);
 sphere(5);
-}}
+}
 
 
 

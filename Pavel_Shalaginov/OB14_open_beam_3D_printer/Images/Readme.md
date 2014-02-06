@@ -28,7 +28,7 @@
 
 ![OB14_040_preview_featured](OB14_040_preview_featured.jpg)
 
-![OB14_parts_IDa_[1280x768_preview_featured](OB14_parts_IDa_[1280x768_preview_featured.jpg)
+![OB14_parts_IDa_1280x768_preview_featured](OB14_parts_IDa_[1280x768_preview_featured.jpg)
 
 ![OBX_001_preview_featured](OBX_001_preview_featured.jpg)
 

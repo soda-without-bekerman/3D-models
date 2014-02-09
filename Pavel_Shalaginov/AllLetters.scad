@@ -398,12 +398,12 @@ union(){
    translate([22,0,0])
 
 //T 
-  union(){
+
   union(){ 
   cube([3,40,3]);
    translate([-10,37,0]) cube([25,3,3]);
 }
-}
+
 
 //E
   translate([38,0,0])

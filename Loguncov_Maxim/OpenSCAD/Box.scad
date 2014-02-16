@@ -22,6 +22,7 @@
 	}
 
 	//Крышка
+translate([0,-2 ,10 ]) {
 	rotate([180,0,0])
 difference() {
 		translate([0, 0, 0]) {
@@ -31,3 +32,4 @@ difference() {
 			cube([94,94 ,7 ]);
 		}
 	}
+}

@@ -26,7 +26,7 @@ translate ([0,-5,5]) {
 difference() {
 translate ([6,10,24.8])rotate ([0,90,0])cylinder (0.3,0.4,0.4);
 translate ([5.7,10,24.8])rotate ([0,90,0])cylinder (0.7,0.2,0.2);
-};
+}
 }
 //делаю цеферблат
 rotate ([0,90,0])translate ([-47,7.5,8])cylinder (0.6,1,1);

@@ -2,7 +2,7 @@
 union(){
 
 // S
- translate([0,30,3])
+ translate([1,30,3])
 rotate([180,0,90]){
 scale([0.8,0.8,1]){
 union(){
@@ -50,7 +50,7 @@ difference(){
 }
 
 //D
-translate([43.7,0,0]) 
+translate([43,0,0]) 
 union(){
    translate([-5,0,0]) cube([4,40,3]);
  difference(){
@@ -59,9 +59,11 @@ union(){
       translate([-15,0,-1]) cube([10,40,6]);
 }
 }
- translate([83,0,0])
-   union(){
-      difference(){
+ 
+//A
+translate([81.5,0,0])
+ union(){
+    difference(){
    union(){
     cube([3,40,3]);
    translate([-23.1,0,0]) rotate([0,0,-30])  cube([3,50,3]);
@@ -77,7 +79,7 @@ union(){
 
 //TEAM
  
-  translate([0,-42,0]){
+  translate([2.5,-39.5,0]){
    translate([22,0,0])
 
 //T 
@@ -89,7 +91,7 @@ union(){
 }
 
 //E
-  translate([38,0,0])
+  translate([36,0,0])
    union(){ 
     cube([3,40,3]);
     cube([22,3,3]);
@@ -98,7 +100,7 @@ union(){
 }
 
 //A
-   translate([83,0,0])
+   translate([79,0,0])
   union(){
     difference(){
   union(){
@@ -115,7 +117,7 @@ union(){
 
 
 //M
-translate([136,40,0])
+translate([129,40,0])
   rotate([0,0,-90])
 difference(){
 union(){

@@ -1,7 +1,4 @@
-//буква B
-$fn=128;
-module a(hh=40, eh=0, z=-1) {}
-  difference(){
+rotate([0,0,180])
   union(){ 
  
   union(){
@@ -21,7 +18,3 @@ module a(hh=40, eh=0, z=-1) {}
 }
 }
 }
- translate([-11,-5,-1]) cube([3,20,5]);
- translate([-14,20,-1]) cube([3,20,5]);
-}
-

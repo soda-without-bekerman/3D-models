@@ -1,4 +1,3 @@
-//F
 difference(){
  union(){
   cube([3,40,3]);

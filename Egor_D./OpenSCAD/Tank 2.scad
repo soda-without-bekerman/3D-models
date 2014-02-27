@@ -23,10 +23,10 @@ $fn=70;
 difference () {
 union(){
 translate([2,0,0]) cube ([32,15,5]);
-rotate([90,0,0])translate([2.4,2.5,-15]) cylinder(15,2.5,2.5);
+rotate([90,0,0])translate([1.3,2.55,-15]) cylinder(15,2.5,2.5);
 }
 rotate ([0,40,0])translate ([18,-1,24])cube ([10,17,5]);
-rotate ([0,45,0])translate ([-3,-0,-0])cube ([7,15,2]);
+rotate ([0,40,0])translate ([-4,0,-0.5])cube ([7,15,2]);
 }
 
 

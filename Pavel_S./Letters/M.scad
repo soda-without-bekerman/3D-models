@@ -1,5 +1,3 @@
-//M
-  rotate([0,0,-90])
 difference(){
 union(){
   translate([0,-16,0]) rotate([0,0,15]) cube([43,3,3]);

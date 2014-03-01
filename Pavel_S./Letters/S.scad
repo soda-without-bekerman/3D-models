@@ -1,17 +1,18 @@
-scale(0.5,0.5,1){
+$fn=128;
 union(){
+translate([0,0.5,0]){
 difference(){
- cylinder(4,20,20);
-translate([0,0,-1]) cylinder(6,16,16);
- translate([-20,0,-1]) cube(20);
-
+  translate([0,9,0]) cylinder(3,11,11);
+  translate([0,9,-1]) cylinder(5,8,8);
+  translate([0,-3,-1]) cube([15,13,5]);
 }
 
+} 
+translate([0,-0.5,0]){
 difference(){
- translate([-36,0,0]) cylinder(4,20,20);
- translate([-36,0,-1]) cylinder(6,16,16);
- translate([-38,-20,-1]) cube(20);
-
+  translate([0,-9,0]) cylinder(3,11,11);
+  translate([0,-9,-1]) cylinder(5,8,8);
+ translate([-15,-10.4,-1]) cube([15,13,5]);
 }
 }
 }

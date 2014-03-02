@@ -7,12 +7,18 @@ cylinder(30,15,4);
 translate([0,0,-122]) rotate(0,0,90) scale([0.5,5,5]) cylinder(24,21,3);
 translate([-10,35,-110]) cylinder(30,10,10);
 translate([-10,-35,-110]) cylinder(30,10,10);
+//шасси
 translate([-30,10,-110]) cube([30,5,5]);
 translate([-30,-15,-110]) cube([30,5,5]);
 translate([-30,-2.5,-5]) cube([39,5,5]);
-translate([-30,0,-2.5]) sphere(6.5);
-translate([-30,13,-107.5]) sphere(6.5); 
-translate([-30,-13,-107.5]) sphere(6.5);
+//шины
+translate([-30,3.5,-2.5]) scale([1.4,0.7,1.5]) sphere(5.5); 
+translate([-30,-9,-107.5]) scale([1.4,0.7,1.5]) sphere(5.5);
+translate([-30,-16,-107.5]) scale([1.4,0.7,1.5]) sphere(5.5);
+translate([-30,9,-107.5]) scale([1.4,0.7,1.5]) sphere(5.5);
+translate([-30,16,-107.5]) scale([1.4,0.7,1.5]) sphere(5.5);
+translate([-30,-3.5,-2.5]) scale([1.4,0.7,1.5]) sphere(5.5);
+//
 translate([0,0,-160]) rotate(0,0,90) scale([0.5,3,3]) cylinder(24,21,3);
 translate([10,18,-159]) scale([1.76,0.2,1.7]) cylinder(20,20,1);
 translate([10,-18,-159]) scale([1.76,0.2,1.7]) cylinder(20,20,1);

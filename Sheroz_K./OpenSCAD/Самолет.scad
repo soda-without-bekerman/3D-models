@@ -44,3 +44,11 @@ translate([-7,65,-146]) cylinder(19,7,7);
 translate([-7,-65,-135]) cylinder(75,5,5); 
 translate([-7,-65,-65]) cylinder(19,7,1);
 translate([-7,-65,-146]) cylinder(19,7,7);
+//
+translate([0,99,-135]) cylinder(45,5,5); 
+translate([0,99,-96]) cylinder(19,7,1);
+translate([0,99,-146]) cylinder(19,7,7);
+//
+translate([0,-99,-135]) cylinder(45,5,5); 
+translate([0,-99,-96]) cylinder(19,7,1);
+translate([0,-99,-146]) cylinder(19,7,7);

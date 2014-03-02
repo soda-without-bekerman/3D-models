@@ -1,5 +1,5 @@
 //Мой самолет(военный)
-$fn=190;
+$fn=270;
 cylinder(30,15,4);
  translate([0,0,30]) sphere(4);
  translate([0,0,-130]) cylinder(130,13,15); 

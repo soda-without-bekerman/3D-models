@@ -29,10 +29,11 @@ union(){
  translate([30,0,0]){
 difference(){
 union(){
- translate ([11,0,0])cylinder (2,8,8);
- translate ([-11,0,0])cylinder (2,8,8);
- translate ([0,11,0])cylinder (2,8,8);
+ translate ([11,-3,0])cylinder (2,8,8);
+ #translate ([-11,-3,0])cylinder (2,8,8);
+ translate ([7,11,0])cylinder (2,8,8);
  translate ([0,-11,0])cylinder (2,8,8);
+ translate ([-7,11,0])cylinder (2,8,8);
 } 
 translate ([0,0,-2])cylinder (5,7,7);
 }

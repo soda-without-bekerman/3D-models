@@ -1,26 +1,29 @@
 
-union(){
+
 
 // S
- translate([1,30,3])
-rotate([180,0,90]){
-scale([0.8,0.8,1]){
+
+translate([0,20,0])
 union(){
+translate([0,0.5,0]){
 difference(){
- cylinder(3,14,14);
-translate([0,0,-1]) cylinder(5,10,10);
- translate([-20,0,-1]) cube(20);
+  translate([0,9,0]) cylinder(3,11,11);
+  translate([0,9,-1]) cylinder(5,8,8);
+  translate([0,-3,-1]) cube([15,13,5]);
+}
 
-}
-}
+} 
+translate([0,-0.5,0]){
 difference(){
- translate([-24,0,0]) cylinder(3,14,14);
- translate([-24,0,-1]) cylinder(5,10,10);
- translate([-25,-20,-1]) cube(20);
+  translate([0,-9,0]) cylinder(3,11,11);
+  translate([0,-9,-1]) cylinder(5,8,8);
+ translate([-15,-10.4,-1]) cube([15,13,5]);
+}
+}
+}
 
-}
-}
-}
+
+
 
 // буква О
 translate([-15,0,0])
@@ -132,4 +135,4 @@ union(){
  translate([40,-60,0]) cube([5,60,6]);
 }
 }
-}
+

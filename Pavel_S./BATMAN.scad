@@ -4,7 +4,7 @@ linear_extrude(height = 2, center = true, convexity = 10, twist = 0)
 difference(){
 
 translate([0,20,0])
-polygon(points=[[-9.8, -14], [9.8,-14],[3.8, 14],[-3.8, 14] ],paths=[[0,1,2,3]], convexity=10);
+polygon(points=[[-9.8, -11], [9.8,-11],[3.8, 14],[-3.8, 14] ],paths=[[0,1,2,3]], convexity=10);
 
 translate([0,30,0])
 polygon(points=[[-2, -8], [2,-8],[12, 8],[-12, 8] ],paths=[[0,1,2,3]], convexity=10);

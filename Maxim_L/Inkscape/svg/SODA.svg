@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
-
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -16,9 +14,8 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Новый документ 1">
-
-<defs
+   sodipodi:docname="SODA.svg">
+  <defs
      id="defs4" />
   <sodipodi:namedview
      id="base"
@@ -46,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -64,7 +61,7 @@
        ry="21.64131" />
     <g
        id="g3262"
-       transform="matrix(0.98797718,-0.15459976,0.13414202,0.857241,-44.223164,139.99825)">
+       transform="matrix(0.99999023,0.00442044,-0.00383549,0.86766439,7.2854714,81.993661)">
       <rect
          rx="0"
          ry="23.789898"

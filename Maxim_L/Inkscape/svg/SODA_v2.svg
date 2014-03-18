@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="SODA.svg">
+   sodipodi:docname="SODA_v2.svg">
   <defs
      id="defs4">
     <marker
@@ -198,7 +198,7 @@
      inkscape:cx="375"
      inkscape:cy="593.87961"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3262"
      showgrid="false"
      inkscape:window-width="1853"
      inkscape:window-height="1056"
@@ -214,7 +214,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -232,7 +232,7 @@
        ry="250.71428" />
     <g
        id="g3262"
-       transform="matrix(0.9837101,-0.15410951,0.18946832,0.87851035,-58.928391,134.89664)"
+       transform="matrix(0.99570842,-2.0338892e-4,0.05139817,0.89723849,-7.4272935,75.317903)"
        style="fill:#e6e6e6">
       <rect
          rx="0"
@@ -252,7 +252,8 @@
          height="155.71429"
          width="41.42857"
          id="rect2993-4-7"
-         style="fill:#ffffff;filter:url(#filter3805)" />
+         style="fill:#ffffff;filter:url(#filter3805)"
+         transform="matrix(0.96267204,-8.4616232e-6,-0.00192686,0.99999956,11.443089,0.00259396)" />
       <rect
          rx="0"
          ry="19.285713"

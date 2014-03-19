@@ -4,7 +4,7 @@
         <meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" name="viewport"></meta>
         <meta charset="UTF-8"></meta>
         <link href="images/favicon.ico" type="image/x-icon" rel="shortcut icon"></link>
-        <link media="all" href="/home/loguncov/git/3D-models/Maxim_L/Openscad_Html/CSS/main.css" rel="stylesheet" type="text/css"></link>
+        <link media="all" href="/home/loguncov/git/3D-models/Maxim_L/Openscad_Html/CSS" rel="stylesheet" type="text/css"></link>
         <title>
 
             OpenSCAD Шпаргалка

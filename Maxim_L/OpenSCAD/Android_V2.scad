@@ -33,10 +33,10 @@ translate([29,0,33])sphere(3);
 translate([29,0,18])sphere(3);
 }
 //Усики
-{color([0.3, 1, 0])
-rotate([0,320,0])translate([35,0,28])cylinder(5,1,1); //center=true; 
-color([0.3, 1, 0])rotate([0,50,0])translate([-17,0,48])cylinder(5,1,1); //center=true; 
-}
+//{color([0.3, 1, 0])
+//rotate([0,320,0])translate([35,0,28])cylinder(5,1,1); //center=true; 
+//color([0.3, 1, 0])rotate([0,50,0])translate([-17,0,48])cylinder(5,1,1); //center=true; 
+//}
 //Глаза
 color([1, 1, 1]){
 translate([12,10,40])sphere(2);
@@ -80,10 +80,10 @@ translate([29,0,33])sphere(3);
 translate([29,0,18])sphere(3);
 }
 //Усики
-{color([0.3, 1, 0])
-rotate([0,320,0])translate([35,0,28])cylinder(5,1,1); //center=true; 
+
+color([0.3, 1, 0])rotate([0,320,0])translate([35,0,28])cylinder(5,1,1); //center=true; 
 color([0.3, 1, 0])rotate([0,50,0])translate([-17,0,48])cylinder(5,1,1); //center=true; 
-}
+
 //Глаза
 color([1, 1, 1]){
 translate([12,10,40])sphere(2);

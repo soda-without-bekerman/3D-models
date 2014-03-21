@@ -1,4 +1,4 @@
-[photo]: (https://github.com/soda-io/3D-models/blob/master/Maxim_L/png/Inkscape/liters/A.png)
+![photo](A.png)
 
 [photo]: (https://github.com/soda-io/3D-models/blob/master/Maxim_L/png/Inkscape/liters/B.png) "Дополнительное описание"
 

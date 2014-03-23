@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="P.png">
+   sodipodi:docname="P.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -51,12 +51,30 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4"
-       d="m 297.76963,253.43 c 7.08997,-8.41838 5.55569,-16.8157 13.80999,-22.4417 8.25429,-5.62602 32.72574,-14.195 41.82715,-17.24244 9.10142,-3.04744 18.54712,-4.85903 28.17846,-5.54172 9.63135,-0.68266 19.44835,-0.23634 29.2924,1.23188 9.84405,1.46827 19.71515,3.95858 29.45471,7.364 9.73955,3.40544 19.34757,7.72599 28.66541,12.85473 9.31784,5.12876 18.34554,11.06574 26.92449,17.70403 8.57893,6.63828 16.70912,13.9779 24.23193,21.9119 60.18256,63.47207 64.91434,171.19109 6.27003,236.86914 -55.26554,61.89405 -136.57237,77.94883 -202.38454,35.58788 -0.65833,-0.42374 -10.35935,-29.71217 -10.89045,-30.28919 73.97705,24.98847 179.60707,37.96988 207.8763,-120.22502 C 496.82749,236.53798 389.93629,242.77639 297.76963,253.43 z"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssssssssssccc"
-       id="path2993" />
+    <g
+       transform="matrix(0.84860558,0,0,0.81149358,102.76893,-63.844856)"
+       id="g2984">
+      <path
+         transform="translate(85.714286,-24.285714)"
+         d="m 465.71428,563.07648 c 0,122.68611 -80.26895,222.14285 -179.28572,222.14285 -99.01677,0 -179.28572,-99.45674 -179.28572,-222.14285 0,-122.68611 80.26895,-222.14286 179.28572,-222.14286 99.01677,0 179.28572,99.45675 179.28572,222.14286 z"
+         sodipodi:ry="222.14285"
+         sodipodi:rx="179.28572"
+         sodipodi:cy="563.07648"
+         sodipodi:cx="286.42856"
+         id="path2985"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(0.69774919,0,0,0.69774919,171.56868,146.61888)"
+         d="m 465.71428,563.07648 c 0,122.68611 -80.26895,222.14285 -179.28572,222.14285 -99.01677,0 -179.28572,-99.45674 -179.28572,-222.14285 0,-122.68611 80.26895,-222.14286 179.28572,-222.14286 99.01677,0 179.28572,99.45675 179.28572,222.14286 z"
+         sodipodi:ry="222.14285"
+         sodipodi:rx="179.28572"
+         sodipodi:cy="563.07648"
+         sodipodi:cx="286.42856"
+         id="path2985-5"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         sodipodi:type="arc" />
+    </g>
     <rect
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect2992"

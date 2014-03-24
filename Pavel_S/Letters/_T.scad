@@ -1,5 +1,6 @@
-
+x=3;
+e=25;
 union(){ 
-cube([3,40,3]);
- translate([-10,37,0]) cube([25,3,3]);
+cube([x,e+15,x]);
+ translate([-10,37,0]) cube([e,x,x]);
 }

@@ -31,5 +31,5 @@
 # V11
 ![photo](SODA_V11.png)
 
-# V12(Версия для Виталия)
+# V12
 ![photo](SODA_V12.png)

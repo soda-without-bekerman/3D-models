@@ -79,16 +79,16 @@
 # Wath
 ![photo](Wath)
 
-# 1865_1
+# shool/1865_1
 ![photo](1865_1)
 
-# 1865_4
+# shool/1865_4
 ![photo](1865_4)
 
-# dice
+# play/dice
 ![photo](dice)
 
-# Example(Domino2.5)
+# play/Domino/Example(Domino2.5)
 ![photo](Example(Domino2.5))
 
 

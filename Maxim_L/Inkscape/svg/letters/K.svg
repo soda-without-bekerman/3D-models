@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Новый документ 1">
+   sodipodi:docname="K.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -51,25 +51,28 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       id="rect2985"
-       width="81.428574"
-       height="491.42856"
-       x="187.14285"
-       y="392.36218" />
-    <path
-       transform="matrix(0.89218299,0.45167411,-0.60125311,0.79905863,0,0)"
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4"
-       d="m 600.04242,151.25244 64.04625,-35.65536 13.62073,464.93625 -77.66698,0 z"
-       id="rect2985-6"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4"
-       d="M 520.73177,880.18232 436.58465,880.4144 306.57251,661.40537 349.72275,605.78489 z"
-       id="rect2985-6-3"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccc" />
+    <g
+       id="g2985">
+      <rect
+         y="392.36218"
+         x="187.14285"
+         height="491.42856"
+         width="81.428574"
+         id="rect2985"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect2985-6"
+         d="m 600.04242,151.25244 64.04625,-35.65536 13.62073,464.93625 -77.66698,0 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4"
+         transform="matrix(0.89218299,0.45167411,-0.60125311,0.79905863,0,0)" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="rect2985-6-3"
+         d="M 520.73177,880.18232 436.58465,880.4144 306.57251,661.40537 349.72275,605.78489 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-miterlimit:4" />
+    </g>
   </g>
 </svg>

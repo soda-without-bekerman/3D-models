@@ -1,5 +1,5 @@
 # V1
-![photo](SODA_V1.png)
+![photo](SODA_V1.svg)
 
 # V2
 ![photo](SODA_V2.png)

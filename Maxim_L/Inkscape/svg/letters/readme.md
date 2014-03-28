@@ -1,8 +1,8 @@
 # A
-![photo](A.png)
+![photo](A.svg)
 
 # B
-![photo](B.png)
+![photo](B.svg)
 
 # B
 ![photo](B1.png)

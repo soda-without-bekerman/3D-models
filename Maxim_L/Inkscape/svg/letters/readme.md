@@ -5,79 +5,79 @@
 ![photo](B.svg)
 
 # B
-![photo](B1.png)
+![photo](B1.svg)
 
 # C
-![photo](C.png)
+![photo](C.svg)
 
 # D
-![photo](D.png)
+![photo](D.svg)
 
 # E
-![photo](E.png)
+![photo](E.svg)
 
 # F
-![photo](F.png)
+![photo](F.svg)
 
 # G
-![photo](G.png)
+![photo](G.svg)
 
 # H
-![photo](H.png)
+![photo](H.svg)
 
 # I
-![photo](I.png)
+![photo](I.svg)
 
 # J
-![photo](J.png)
+![photo](J.svg)
 
 # K
-![photo](K.png)
+![photo](K.svg)
 
 # L
-![photo](L.png)
+![photo](L.svg)
 
 # M
-![photo](M.png)
+![photo](M.svg)
 
 # N
-![photo](N.png)
+![photo](N.svg)
 
 # O
-![photo](O.png)
+![photo](O.svg)
 
 # P
-![photo](P.png)
+![photo](P.svg)
 
 # Q
-![photo](Q.png)
+![photo](Q.svg)
 
 # R
-![photo](R.png)
+![photo](R.svg)
 
 # S
-![photo](S2.png)
+![photo](S2.svg)
 
 # S
-![photo](S3.png)
+![photo](S3.svg)
 
 # T
-![photo](T.png)
+![photo](T.svg)
 
 # U
-![photo](U.png)
+![photo](U.svg)
 
 # V
-![photo](V.png)
+![photo](V.svg)
 
 # W
-![photo](W.png)
+![photo](W.svg)
 
 # X
-![photo](X.png)
+![photo](X.svg)
 
 # Y
-![photo](Y.png)
+![photo](Y.svg)
 
 # Z
-![photo](Z.png)
+![photo](Z.svg)

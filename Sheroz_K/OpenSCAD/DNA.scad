@@ -1,4 +1,4 @@
-// ДНК в 3D by Sheroz Karimov
+// ДНК в 3D
 
 // ===== Параметры =====
 TotalHeight = 120; //Длинна

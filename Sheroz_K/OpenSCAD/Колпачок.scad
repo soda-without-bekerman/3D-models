@@ -5,14 +5,13 @@ $fn = 158;
 
 // Колпачок
 difference() { 
-  cylinder(25, 26, 13);   
-  translate([0, 0, -5]) cylinder(21.15, 24.44, 11.90);       
+  cylinder(29, 28, 21);   
+  translate([0, 0, -5]) cylinder(28.15, 26.44, 20);       
 }
 
 // Основание
 difference() {
-  cylinder(2, 28, 28);           
-  translate([0, 0, -1]) cylinder(5, 22, 22);       
+  cylinder(2, 32, 32);           
+  translate([0, 0, -1]) cylinder(5, 27, 25);       
 }
- 
 

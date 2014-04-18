@@ -12,10 +12,10 @@ difference(){
  translate([45,45,-5]) cylinder(5,4,4);
      
 }
- translate([0,5,-5]) cylinder(7,2.7,2.7);
- translate([0,45,-5]) cylinder(7,2.7,2.7);
- translate([45,5,-5]) cylinder(7,2.7,2.7);
- translate([45,45,-5]) cylinder(7,2.7,2.7);
+ translate([0,5,-7]) cylinder(7,2.7,2.7);
+ translate([0,45,-7]) cylinder(7,2.7,2.7);
+ translate([45,5,-7]) cylinder(7,2.7,2.7);
+ translate([45,45,-7]) cylinder(7,2.7,2.7);
  
  }
  translate([-1.5,0,-3])

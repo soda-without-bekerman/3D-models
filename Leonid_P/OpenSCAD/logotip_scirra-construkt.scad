@@ -1,3 +1,4 @@
+$fn=128;
 difference () {
 cylinder (2.5,15,15);
 translate ([0,0,-1]) cylinder (5,6,6);

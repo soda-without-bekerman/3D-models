@@ -96,6 +96,6 @@ translate([2,-15,-1])cube(37);
 }}
 color([0, 1, 0])
 translate([0,0,35])difference(){
-translate([17,0,0])cylinder(3,11,11);
-translate([17,0,-1])cylinder(3,9,9);
+#translate([17,0,-5])cylinder(5,11,11);
+translate([17,0,-6])cylinder(5,9,9);
 }}

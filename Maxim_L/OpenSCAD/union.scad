@@ -26,7 +26,20 @@ cylinder(15,15,18);
 
 
 
-	
+
+translate([0,0,-190]){
+linear_extrude(height = 30, center = false, convexity = 1, twist = 5000)
+translate([14, 0, 0])
+#circle(r = 1);
+
+
+translate([0,0,25])
+sphere(15);
+translate([0,0,0])
+sphere(15);
+}
+
+
 
 
 
@@ -64,4 +77,5 @@ cylinder(40,12,12);
 
 
  
+
 

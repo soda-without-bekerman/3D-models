@@ -16,11 +16,17 @@
 # culinder
 ![photo](culinder)
 
+# DNK
+![photo](DNK)
+
 # funnel
 ![photo](funnel)
 
 # glass
 ![photo](glass)
+
+# linear
+![photo](linear)
 
 # Magif
 ![photo](Magif)
@@ -39,6 +45,9 @@
 
 # piramid
 ![photo](piramid)
+
+# reel
+![photo](reel)
 
 # ruler
 ![photo](ruler)
@@ -60,6 +69,9 @@
 
 # sphere4
 ![photo](sphere4)
+
+# sub
+![photo](sub)
 
 # tree
 ![photo](tree)

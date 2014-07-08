@@ -1,0 +1,9 @@
+//шарики
+$fn=128;
+cube([30,15,7]);
+rotate([20,0,0])translate([1,15,0])cylinder(20,1,1);
+rotate([-25,0,0])translate([1,-2,6])cylinder(20,1,1);
+rotate([19,0,0])translate([29,15,0])cylinder(20,1,1);
+rotate([-24,0,0])translate([29,-2,6])cylinder(20,1,1);
+rotate([0,90,0])translate([-22,8,0])cylinder(30,1,1);
+rotate

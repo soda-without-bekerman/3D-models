@@ -1,0 +1,4 @@
+$fn=128;
+color ("red") sphere ( 26 );
+translate ([0,0,30])cylinder (10,5,20);
+translate([0,0,25]) cylinder (7,5,5);

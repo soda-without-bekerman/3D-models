@@ -1,4 +1,4 @@
-$fn=128;
+$fn = 128;
 sphere (10);
 translate ([0, 40, 0]) rotate ([90, 0, 0]) cylinder (80, 1, 1);
 translate ([-40, 0, 1]) rotate ([0, 90, 0]) cylinder (80, 1, 1);

@@ -1,0 +1,7 @@
+$fn = 128;
+difference () {
+sphere (30);
+translate ([0, 0, -40])cylinder (80, 15, 15);
+translate ([0, 40, 0]) rotate ([90, 0, 0])  cylinder (80, 15, 15);
+translate ([-40, 0, 0]) rotate ([0, 90, 0])  cylinder (80, 15, 15);
+}

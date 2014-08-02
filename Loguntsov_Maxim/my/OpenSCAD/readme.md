@@ -70,6 +70,9 @@
 # sphere4
 ![photo](sphere4.png)
 
+# sputnik
+![photo](sputnik.png)
+
 # sub
 ![photo](sub.png)
 

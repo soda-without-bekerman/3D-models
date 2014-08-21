@@ -1,5 +1,6 @@
 $fn=100;
-scale([0.15,0.15,0.15]){
+
+scale(0.15){
 union(){
 //корпус
 	cube([400,140,100],center=true);
@@ -80,4 +81,37 @@ translate([20,0,0]){
 }
 }
 
+
+//s
+translate([-25,-5,70]) {
+	scale([1.5,1.5,4]){
+ difference(){
+   union(){
+
+	rotate([0,0,135]) translate([-5,-14,0]) cube([10,6,3]);
+	rotate([0,0,135]) translate([-28,-25,0]) cube([10,6,3]);
+	rotate([0,0,135]) translate([-30,10,0]) cube([10,6,3]);
+	rotate([0,0,135]) translate([-5,-49,0]) cube([10,6,3]);
+	rotate([0,0,235]) translate([-4,39,0]) cube([10,6,3]);
+	rotate([0,0,235]) translate([-35,-15,0]) cube([10,6,3]);
+
+	translate([0,-2,0]) cube([40,10,3]);
+	translate([-2,0,0]) cube([10,40,3]);
+	translate([0,33,0]) cube([40,10,3]);
+	translate([33,21,0]) cube([10,15,3]);
+	translate([-1,-30,0]) cube([10,15,3]);
+	translate([33,-33,0]) cube([10,40,3]);
+	translate([0,-36,0]) cube([40,10,3]);
+
+}   //union
+
+	rotate([0,0,135]) translate([-8,-4,-1]) cube([15,6,5]);
+	rotate([0,0,135]) translate([-34,-35.4,-1]) cube([17,7,5]);
+	rotate([0,0,135]) translate([-32,20,-1]) cube([15,6,5]);
+	rotate([0,0,135]) translate([-8,-61,-1]) cube([17,7,5]);
+	rotate([0,0,235]) translate([-6,49,-1]) cube([17,7,5]);
+	rotate([0,0,235]) translate([-39.8,-26,-1]) cube([17,7,5]);
+}
+}
+}
 }

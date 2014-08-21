@@ -1,6 +1,5 @@
 $fn=100;
 scale([0.15,0.15,0.15]){
-difference([]){
 union(){
 //корпус
 	cube([400,140,100],center=true);
@@ -80,11 +79,5 @@ translate([20,0,0]){
 }
 }
 }
-cube([360,120,80],center=true);
-	translate([0,0,10]) cube([140,160,100],center=true);
-	#translate([-190,-45,60]) cube([80,90,80]);
-	translate([-220,0,-40]) cylinder(260,40,40);
-	translate([-220,0,150]) cylinder(60,40,70);
 
-}
 }

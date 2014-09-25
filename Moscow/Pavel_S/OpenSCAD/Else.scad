@@ -1,3 +1,4 @@
+
 //Pavel Shalaginov
 
 $fn=128;
@@ -6,19 +7,23 @@ $fn=128;
 //основа и отверстия в ней 
  difference(){  
  union(){
-	cube([60,50,3]);
-  	translate([0,25,0]) cylinder(3,25,25);
-  	translate([60,25,0]) cylinder(3,25,25);
+  	translate([0,0,2.5]) cube([60,50,1]);
+  	translate([0,25,2.5]) cylinder(1,25,25);
+  	translate([60,25,2.5]) cylinder(1,25,25);
+	  translate([60,10,0]) cylinder(3.5,4,4);
+  translate([60,40,0]) cylinder(3.5,4,4);
+  translate([0,10,0]) cylinder(3.5,4,4);
+  translate([0,40,0]) cylinder(3.5,4,4);
 
 } 
-	translate([-5,5,-1]) cylinder(2,2.7,2.7);
-	translate([-5,45,-1]) cylinder(2,2.7,2.7);
-	translate([65,5,-1]) cylinder(2,2.7,2.7);
-	translate([65,45,-1]) cylinder(2,2.7,2.7);
+	#translate([0,10,-0.5]) cylinder(3.5,2.7,2.7);
+  #translate([0,40,-0.5]) cylinder(3.5,2.7,2.7);
+  #translate([60,10,-0.5]) cylinder(3.5,2.7,2.7);
+  #translate([60,40,-0.5]) cylinder(3.5,2.7,2.7);
 }
 
 //буква e
-	translate([-45,5,4])
+	translate([-45,5,3])
  union(){
 	translate([28,18,0]) cube([22,3,3]);
 	translate([27,13,0]) cube([3,13,3]);
@@ -66,7 +71,7 @@ $fn=128;
 }
 }
 //буква e
-	translate([25,5,4])
+	translate([25,5,3])
  union(){
 	translate([28,18,0]) cube([22,3,3]);
 	translate([27,13,0]) cube([3,13,3]);

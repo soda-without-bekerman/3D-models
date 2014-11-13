@@ -17,4 +17,4 @@ translate ([11.5,-6,0])rotate(180, 0, 0) cylinder (3,7,7,$fn=3) ;
 translate ([-11,-7,])rotate(180, 0, 0)cylinder (3,7,7,$fn=3) ;
 }
 
-scale ([0.5,0.5,1]) rvk();
+translate ([0,2,0])scale ([0.7,0.7,1]) rvk();

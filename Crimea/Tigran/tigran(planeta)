@@ -1,5 +1,0 @@
-cube([4,4,4]);
-sphere(5,10,5);
-sphere(3,3,3);
-translate([5,5,0])
-sphere(3,3,3);

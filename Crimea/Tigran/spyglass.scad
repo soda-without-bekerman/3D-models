@@ -6,12 +6,12 @@ sphere(10);
 translate ([0,0,20])
 sphere(9) ;        
 }
-/*union(){
+union(){
 #cylinder(10,5,5);
 rotate([90,90,90]);
 cylinder(10,8,9);
 sphere(10);
-}*/
+}
 union(){
 cylinder(40,5,5);
 }}
